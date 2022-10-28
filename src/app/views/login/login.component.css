@@ -1,0 +1,33 @@
+.login {
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+    background-image: linear-gradient(75deg, gray, black);
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    background-image: linear-gradient(75deg, black, gray);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
