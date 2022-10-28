@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CadastroService } from '../cadastro.service';
 import { Router } from '@angular/router';
-import { CadastroModel } from '../caadastro.model';
+import { CadastroModel } from '../cadastro.model';
 
 @Component({
   selector: 'app-cadastro-create',

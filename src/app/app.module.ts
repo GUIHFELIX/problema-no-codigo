@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,7 +18,6 @@ import { CadastroReadComponent } from './views/cadastro/cadastro-read/cadastro-r
 import { CadastroUpdateComponent } from './views/cadastro/cadastro-update/cadastro-update.component';
 import { CadastroDeleteComponent } from './views/cadastro/cadastro-delete/cadastro-delete.component';
 import { CadastroTabelaComponent } from './views/cadastro/cadastro-tabela/cadastro-tabela.component';
-
 
 
 
@@ -46,7 +44,7 @@ import { CadastroTabelaComponent } from './views/cadastro/cadastro-tabela/cadast
     MatIconModule,
     FormsModule,
     ReactiveFormsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

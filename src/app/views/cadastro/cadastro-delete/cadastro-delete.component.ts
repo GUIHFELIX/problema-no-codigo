@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CadastroService } from '../cadastro.service';
 import { Router, ActivatedRoute } from '@angular/router';
-import { CadastroModel } from '../cadastro.model';
+import { CadastroModel } from '../cadastrado/cadastro.model';
 
 @Component({
   selector: 'app-cadastro-delete',
